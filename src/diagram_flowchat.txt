@@ -1,0 +1,73 @@
+  +-----------------------------+
+  |      System Wymiany         |
+  +-----------------------------+
+
+Użytkownik                                  Administrator
+  O                                               O
+ /|\                                             /|\
+ / \                                             / \
+  |                                               |
+  |                                               |
+  |        ----------------------                 |
+  |-------| Wystawienie rośliny |-----------------|
+  |       ----------------------                 |
+  |               |                               |
+  |               |--(<<include>> Dodaj zdjęcie i opis)
+  |               |                               |
+  |               |--(<<include>> Dodaj wskazówki pielęgnacyjne)
+  |                                               |
+  |       ----------------------                  |
+  |-------| Przeglądaj liste    |-----------------|
+  |       ----------------------                  |
+  |               |                               |
+  |               |---> [System rekomendacji]
+  |               |        (Dobór roślin po zdjęciu i opisie)
+  |                                               |
+  |       ----------------------                  |
+  |-------| Rezerwuj / Umawiaj odbiór |-----------|
+  |       ----------------------                  |
+  |               |                               |
+  |       ----------------------                  |
+  |-------| Organizuj wydarzenie wymiany |--------|
+  |       ----------------------                  |
+  |               |                               |
+  |       ----------------------                  |
+  |-------| Wymiana porad / Komentarze |----------|
+  |       ----------------------                  |
+  |               |                               |
+  |       ----------------------                  |
+  |-------| Lokalne wyszukiwanie (mapa) |---------|
+  |       ----------------------                  |
+  |               |                               |
+  |       ----------------------                  |
+  |-------| Otrzymuj powiadomienia (push) |------|
+  |       ----------------------                  |
+  |               |                               |
+  |       ----------------------                  |
+  |-------| Rejestracja / Logowanie |------------|
+  |       ----------------------                  |
+  |                                               |
+  |                                               |
+  |-----------------------------------------------|
+  (funkcje dostępne dla zarejestrowanych)
+                              |
+                              |
+      ------------------------
+      | Panel administracyjny|
+      | - Zarządzaj użytkownikami
+      | - Moderuj ogłoszenia
+      | - Statystyki i powiadomienia
+      ------------------------
+                 |
+                 |
+      (<<extends>> Moderacja ogłoszeń)
+                 |
+      ------------------------
+      | Powiadomienia systemowe|
+      ------------------------
+
+Legenda:
+- Owalne bloki to przypadki użycia (opisowe).
+- [Nazwa] oznacza moduł/system zewnętrzny lub podsystem.
+- <<include>> oznacza obowiązkowe wykorzystanie innej funkcji.
+- <<extends>> oznacza funkcję rozłączną/rozszerzającą.
